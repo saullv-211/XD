@@ -1,0 +1,49 @@
+.button-container {
+
+ display: flex;
+
+ justify-content: center;
+
+align-items: center;
+
+ }
+ 
+ li {font-size: 22px !important;  color: beige;
+
+ }
+ li {padding-top: 10px;}
+.button {
+
+padding: 15px 30px;
+ font-size: 16px;
+color: rgb(0, 0, 0);
+background: linear-gradient(90deg, #12da08, #246309);
+
+
+border: none;
+
+ border-radius: 50px;
+
+cursor: pointer;
+
+ box-shadow: 0 4px 15px rgba(4, 117, 19, 0);
+
+ transition: box-shadow 0.3s ease, transform 0.3s ease;
+
+}
+
+
+
+.button:hover {
+
+ box-shadow: 0 10px 20px rgba(15, 231, 83, 0.5);
+
+transform: translateY(-3px);
+
+ }
+ body { background: linear-gradient(90deg, #1e8fdb, #6c7966);
+
+  } 
+h1 { color: rgba(239, 234, 241, 0.774);} 
+
+
